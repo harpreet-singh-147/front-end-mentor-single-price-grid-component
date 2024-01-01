@@ -191,6 +191,10 @@ body::before {
 }
 
 @media only screen and (max-width: 540px) {
+  body {
+    padding-top: 2rem;
+  }
+
   .subscription {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
